@@ -35,7 +35,7 @@ function App() {
          onChange={(event) => setPassword(event.target.value)}
        />
      </p>
-     {errorMessage && <p id='#errorMessage' style={{ color: "red" }}>{errorMessage}</p>}
+     {errorMessage && <p id='errorMessage' style={{ color: "red" }}>{errorMessage}</p>}
      <button type="submit">Login</button>
    </form>
  );
